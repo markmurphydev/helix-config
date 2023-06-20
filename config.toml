@@ -1,0 +1,16 @@
+theme = "monokai_pro_spectrum"
+
+[editor]
+bufferline = "multiple"
+
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+select = "block"
+
+[editor.lsp]
+auto-signature-help = false
+
+[keys.insert]
+"C-space" = "completion"
+"C-p" = "signature_help"
