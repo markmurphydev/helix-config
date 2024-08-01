@@ -2,6 +2,7 @@ theme = "monokai_pro_spectrum"
 
 [editor]
 bufferline = "multiple"
+auto-pairs = false
 
 [editor.cursor-shape]
 normal = "block"
@@ -10,6 +11,9 @@ select = "block"
 
 [editor.lsp]
 auto-signature-help = false
+
+[editor.smart-tab]
+enable = false
 
 [keys.insert]
 "C-space" = "completion"
